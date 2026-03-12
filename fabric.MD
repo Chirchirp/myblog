@@ -1,34 +1,3 @@
-I'm glad you found the guide helpful! Since I'm an AI, I cannot directly generate or host a downloadable PDF file. However, I can provide you with the complete Markdown content again in a single code block below. You can copy this text, save it as a `.md` file, and then convert it to PDF using a tool of your choice.
-
-## How to Convert Markdown to PDF
-
-### Option 1: Using Pandoc (Command Line)
-If you have Pandoc installed, run:
-```bash
-pandoc fabric_medallion_guide.md -o fabric_medallion_guide.pdf --pdf-engine=pdflatex
-```
-(You may need to install LaTeX as well.)
-
-### Option 2: Using Typora (GUI)
-1. Download and install [Typora](https://typora.io/).
-2. Open the `.md` file in Typora.
-3. Go to `File` → `Export` → `PDF`.
-
-### Option 3: Online Converters
-- Use [Markdown to PDF](https://www.markdowntopdf.com/) (copy-paste the text).
-- Use [Dillinger.io](https://dillinger.io/) (paste, then export as PDF).
-
-### Option 4: VS Code with Extensions
-- Install the "Markdown PDF" extension in VS Code.
-- Open the `.md` file, right-click, and select "Markdown PDF: Export (pdf)".
-
----
-
-## Complete Markdown Content
-
-Below is the full guide. Copy everything between the triple backticks and save as `fabric_medallion_guide.md`.
-
-```markdown
 # Microsoft Fabric Medallion Architecture: Enterprise Implementation Guide & Operational Runbook
 
 **Version:** 1.0
@@ -2184,5 +2153,3 @@ Go-Live,Post-launch monitoring,All,2026-04-03,Not Started,
 
 *This guide is a living document. For questions, suggestions, or contributions, please contact the Data Architecture Team.*
 ```
-
-Copy the content above, save it as `fabric_medallion_guide.md`, and then follow the conversion instructions. If you need any adjustments or have further questions, feel free to ask!
